@@ -1,0 +1,5 @@
+C:\Users\Csaba\Desktop\RoundifyRelease\Roundify.exe
+C:\Users\Csaba\Desktop\RoundifyRelease\Roundify.dll
+C:\Users\Csaba\Desktop\RoundifyRelease\Roundify.deps.json
+C:\Users\Csaba\Desktop\RoundifyRelease\Roundify.runtimeconfig.json
+C:\Users\Csaba\Desktop\RoundifyRelease\Roundify.pdb

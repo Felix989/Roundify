@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1NHMavXW7yx67uM9TwNuGJv2Vrt8m/xWJw7i+tTVN0oebbPmXZAKpC1hHsG1l2CW7iojzoM38iTRuE0rxUsk6A==",
+  "success": true,
+  "projectFilePath": "C:\\DATA\\Programming\\GIT\\Roundify - GIT\\Roundify.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Csaba\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x86\\5.0.9\\microsoft.netcore.app.runtime.win-x86.5.0.9.nupkg.sha512",
+    "C:\\Users\\Csaba\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x86\\5.0.9\\microsoft.windowsdesktop.app.runtime.win-x86.5.0.9.nupkg.sha512",
+    "C:\\Users\\Csaba\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x86\\5.0.9\\microsoft.aspnetcore.app.runtime.win-x86.5.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

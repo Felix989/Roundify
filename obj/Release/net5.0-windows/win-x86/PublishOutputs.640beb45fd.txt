@@ -1,0 +1,11 @@
+C:\Users\Csaba\Desktop\RoundifyRelease\Roundify.pdb
+C:\Users\Csaba\Desktop\RoundifyRelease\clrcompression.dll
+C:\Users\Csaba\Desktop\RoundifyRelease\clrjit.dll
+C:\Users\Csaba\Desktop\RoundifyRelease\coreclr.dll
+C:\Users\Csaba\Desktop\RoundifyRelease\mscordaccore.dll
+C:\Users\Csaba\Desktop\RoundifyRelease\D3DCompiler_47_cor3.dll
+C:\Users\Csaba\Desktop\RoundifyRelease\PenImc_cor3.dll
+C:\Users\Csaba\Desktop\RoundifyRelease\PresentationNative_cor3.dll
+C:\Users\Csaba\Desktop\RoundifyRelease\vcruntime140_cor3.dll
+C:\Users\Csaba\Desktop\RoundifyRelease\wpfgfx_cor3.dll
+C:\Users\Csaba\Desktop\RoundifyRelease\Roundify.exe

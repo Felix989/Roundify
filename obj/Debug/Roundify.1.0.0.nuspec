@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Roundify</id>
+    <version>1.0.0</version>
+    <authors>Roundify</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net5.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net5.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WPF" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\DATA\Programming\GIT\Roundify - GIT\bin\Debug\net5.0-windows\Roundify.runtimeconfig.json" target="lib\net5.0-windows7.0\Roundify.runtimeconfig.json" />
+    <file src="C:\DATA\Programming\GIT\Roundify - GIT\bin\Debug\net5.0-windows\Roundify.dll" target="lib\net5.0-windows7.0\Roundify.dll" />
+  </files>
+</package>

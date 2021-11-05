@@ -1,0 +1,5 @@
+C:\DATA\Programming\GIT\Roundify - GIT\bin\Debug\net5.0-windows\publish\Roundify.exe
+C:\DATA\Programming\GIT\Roundify - GIT\bin\Debug\net5.0-windows\publish\Roundify.dll
+C:\DATA\Programming\GIT\Roundify - GIT\bin\Debug\net5.0-windows\publish\Roundify.deps.json
+C:\DATA\Programming\GIT\Roundify - GIT\bin\Debug\net5.0-windows\publish\Roundify.runtimeconfig.json
+C:\DATA\Programming\GIT\Roundify - GIT\bin\Debug\net5.0-windows\publish\Roundify.pdb
