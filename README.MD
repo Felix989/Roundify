@@ -12,6 +12,7 @@ If you want to deploy for yourself you will need Visual Studio, .NET 5 SDK and R
   ~Usage (Currently):<br/>
 You have to clone the Release branch and inside the Bin folder there are the two distributions which you can run as an exe.<br/>
 YOU WILL NEED .NET 5 FRAMEWORK RUNTIME SUPPORT x64 OR x86<br/>
+Download here: https://dotnet.microsoft.com/download/dotnet/5.0 (.NET Desktop Runtime 5.0.11)<br/>
 Use the following command to deploy for yourself: *dotnet publish -c Release --self-contained -r win-x64 -p:PublishSingleFile=true*<br/>
 
 
