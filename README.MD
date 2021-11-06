@@ -5,16 +5,18 @@ This is a program that makes your screen's window rounded just like displapertur
 The program is in strong Alpha state, but I'm planning on continuing this project.<br/>
 Currently it only supports 1920*1080 (16:9), but im planning to make it universal and also the corner radius to be adjusted.<br/>
 
-A deployed version is not yet added, asap I'm ready with it I will commit it to a new branch called "Release".<br/>
-The Release branch will contain a Folder with an EXE file and a Settings(Probably, still under planning stage).<br/>
+A deployed version is partly added, asap I'm ready with it I will commit it to the "Release" branch.<br/>
+The Release branch contains a "bin" Folder with an EXE file and a Settings(Probably, still under planning stage).<br/>
 If you want to deploy for yourself you will need Visual Studio, .NET 5 SDK and Runtime.<br/>
 
   ~Usage (Currently):<br/>
+You have to clone the Release branch and inside the Bin folder there are the two distributions which you can run as an exe.<br/>
+YOU WILL NEED .NET 5 FRAMEWORK RUNTIME SUPPORT x64 OR x86<br/>
+Download here: https://dotnet.microsoft.com/download/dotnet/5.0 (.NET Desktop Runtime 5.0.11)<br/>
 Use the following command to deploy for yourself: *dotnet publish -c Release --self-contained -r win-x64 -p:PublishSingleFile=true*<br/>
 
 
   ~Features to be added:<br/>
--Release Branch<br/>
 -New Icon<br/>
 -Run invisibly at background<br/>
 -Reduce cpu and memory usage<br/>
