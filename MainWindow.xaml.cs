@@ -91,7 +91,7 @@ namespace Roundify
 
             var myBrush = new ImageBrush
             {
-                ImageSource = new BitmapImage(new Uri(@"..\..\..\png.png", UriKind.Relative))
+                ImageSource = new BitmapImage(new Uri(@"..\..\..\scaledCorners.png", UriKind.Relative))
             };
             Background = myBrush;
         }
