@@ -1,4 +1,9 @@
-  ~Description:<br/>
+Note: If you are looking for a release for the version that runs in the background with a tray icon, please look at the releases tab. 
+
+The following documentation is out of date and will not be updated. You do still need to install the runtime however. 
+
+
+~Description:<br/>
 This is a program that makes your screen's window rounded just like displaperture but for windows.
 
   ~Disclamer: <br/>
