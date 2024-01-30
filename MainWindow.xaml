@@ -3,7 +3,9 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:tb="http://www.hardcodet.net/taskbar"
         xmlns:local="clr-namespace:Roundify"
+        xmlns:system="clr-namespace:System;assembly=System.Runtime"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800"
         AllowsTransparency="True" 
@@ -12,5 +14,30 @@
         WindowStartupLocation="CenterScreen" 
         Topmost="True"
         IsHitTestVisible="False"
-        Background="Transparent">
+        ShowInTaskbar="False"
+        Loaded="Window_Loaded"
+        Background="Transparent"
+        >
+
+    <tb:TaskbarIcon x:Name="roundifyNotificationIcon"
+                    Visibility="Visible"
+                    ToolTipText="Roundify"
+                    IconSource="Images/icon.ico"
+                    MenuActivation="LeftOrRightClick"
+    >
+        <tb:TaskbarIcon.ContextMenu>
+            <ContextMenu>
+                <MenuItem Header="Close Roundify"
+                          Command="{local:CloseWindowCommand}"
+                          CommandParameter="{Binding}">
+                    <MenuItem.Icon>
+                        <Image Width="16"
+                               Height="16"
+                               Source="/Images/Close.png" />
+                    </MenuItem.Icon>
+                </MenuItem>
+            </ContextMenu>
+        </tb:TaskbarIcon.ContextMenu>
+    </tb:TaskbarIcon>
+    
 </Window>

@@ -21,4 +21,15 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Hardcodet.NotifyIcon.Wpf" Version="1.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Images\icon.ico" />
+    <Resource Include="Images\icon.ico" />
+    <None Remove="Images\Close.png" />
+    <Resource Include="Images\Close.png" />
+  </ItemGroup>
+
 </Project>
