@@ -1,16 +1,89 @@
-﻿<Window x:Class="Roundify.MainWindow"
+<Window x:Class="Roundify.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Roundify"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
-        AllowsTransparency="True" 
-        WindowState="Maximized"    
-        WindowStyle="None" 
-        WindowStartupLocation="CenterScreen" 
-        Topmost="True"
-        IsHitTestVisible="False"
-        Background="Transparent">
+        Title="Roundify Settings"
+        Width="460"
+        Height="390"
+        MinWidth="460"
+        MinHeight="390"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        ShowInTaskbar="True">
+    <Grid Margin="28">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <StackPanel>
+            <TextBlock Text="Roundify"
+                       FontSize="30"
+                       FontWeight="SemiBold" />
+            <TextBlock Margin="0,4,0,0"
+                       Foreground="#777777"
+                       Text="Rounded screen corners for Windows" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Margin="0,28,0,0">
+            <CheckBox x:Name="EnabledCheckBox"
+                      Content="Enable Roundify"
+                      FontSize="15"
+                      Checked="SettingChanged"
+                      Unchecked="SettingChanged" />
+
+            <TextBlock Margin="0,22,0,6"
+                       Text="Corner radius" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="64" />
+                </Grid.ColumnDefinitions>
+                <Slider x:Name="RadiusSlider"
+                        Minimum="0"
+                        Maximum="300"
+                        TickFrequency="10"
+                        ValueChanged="RadiusSlider_ValueChanged" />
+                <TextBlock x:Name="RadiusText"
+                           Grid.Column="1"
+                           Margin="12,0,0,0"
+                           HorizontalAlignment="Right" />
+            </Grid>
+
+            <TextBlock Margin="0,16,0,6"
+                       Text="Border thickness" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition />
+                    <ColumnDefinition Width="64" />
+                </Grid.ColumnDefinitions>
+                <Slider x:Name="BorderSlider"
+                        Minimum="0"
+                        Maximum="80"
+                        TickFrequency="5"
+                        ValueChanged="BorderSlider_ValueChanged" />
+                <TextBlock x:Name="BorderText"
+                           Grid.Column="1"
+                           Margin="12,0,0,0"
+                           HorizontalAlignment="Right" />
+            </Grid>
+
+            <CheckBox x:Name="TopmostCheckBox"
+                      Margin="0,20,0,0"
+                      Content="Always on top"
+                      Checked="SettingChanged"
+                      Unchecked="SettingChanged" />
+
+            <CheckBox x:Name="StartupCheckBox"
+                      Margin="0,10,0,0"
+                      Content="Start Roundify with Windows"
+                      Checked="SettingChanged"
+                      Unchecked="SettingChanged" />
+        </StackPanel>
+
+        <TextBlock Grid.Row="2"
+                   HorizontalAlignment="Center"
+                   Foreground="#777777"
+                   Text="Roundify stays in the system tray when this window is closed." />
+    </Grid>
 </Window>

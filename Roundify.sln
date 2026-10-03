@@ -1,25 +1,21 @@
-﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31624.102
+# Visual Studio Version 18
+VisualStudioVersion = 18.10.12224.181 stable
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roundify", "Roundify.csproj", "{BD3B4846-D829-4DB9-8EA0-0ED9A9A514FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roundify", "Roundify.csproj", "{3B8C2255-1A8A-4AA7-82C2-4DB1EAB0D8D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BD3B4846-D829-4DB9-8EA0-0ED9A9A514FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BD3B4846-D829-4DB9-8EA0-0ED9A9A514FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BD3B4846-D829-4DB9-8EA0-0ED9A9A514FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BD3B4846-D829-4DB9-8EA0-0ED9A9A514FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B8C2255-1A8A-4AA7-82C2-4DB1EAB0D8D6}.Debug|x64.ActiveCfg = Debug|x64
+		{3B8C2255-1A8A-4AA7-82C2-4DB1EAB0D8D6}.Debug|x64.Build.0 = Debug|x64
+		{3B8C2255-1A8A-4AA7-82C2-4DB1EAB0D8D6}.Release|x64.ActiveCfg = Release|x64
+		{3B8C2255-1A8A-4AA7-82C2-4DB1EAB0D8D6}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5E78A1BF-128C-4943-9228-5523607E9490}
 	EndGlobalSection
 EndGlobal
