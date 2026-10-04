@@ -2,7 +2,7 @@
 
 ~Description:
 
-This is a lightweight Windows program that makes your screen's (edge) corners rounded, similar to Displaperture, but for Windows.
+This is a lightweight Windows program that makes your screen's (edges) corners rounded, similar to Displaperture, but for Windows.
 
 Roundify creates a transparent overlay around the edges of your monitor(s). The center of the screen remains visible while the corners and optional border are masked.
 
