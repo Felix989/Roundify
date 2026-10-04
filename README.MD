@@ -8,8 +8,6 @@ Roundify creates a transparent overlay around the edges of your monitor(s). The 
 
 ~Disclaimer:
 
-The program is currently in an early Alpha state and is still under development.
-
 The current version is designed to work with different resolutions, aspect ratios, multiple monitors, and different DPI settings.
 
 A compiled/deployed EXE is not automatically installed into Windows. Roundify is currently a portable application, so you can place the published EXE anywhere you want.
